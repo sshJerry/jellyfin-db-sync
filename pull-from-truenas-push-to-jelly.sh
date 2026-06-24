@@ -7,6 +7,11 @@
 # to the Jellyfin container's home directory.
 # You will manually move it to /var/lib/jellyfin/data/ after verifying.
 # ============================================================
+# pct enter XXX
+# pkill -f jellyfin
+# cd /var/lib/jellyfin/data
+# mv jellyfin.db jellyfin.db.old
+# mv ~/jellyfin.db jellyfin.db
 
 set -e
 
