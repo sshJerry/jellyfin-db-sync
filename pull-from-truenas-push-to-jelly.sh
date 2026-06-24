@@ -12,6 +12,8 @@
 # cd /var/lib/jellyfin/data
 # mv jellyfin.db jellyfin.db.old
 # mv ~/jellyfin.db jellyfin.db
+# chown jellyfin:jellyfin /var/lib/jellyfin/data/jellyfin.db
+# systemctl restart jellyfin
 
 set -e
 
